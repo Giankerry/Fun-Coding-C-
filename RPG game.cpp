@@ -221,9 +221,9 @@ case(2):
   cout <<classes[role-1] <<"s are highly evasive glass-canons,try to maximize your advantages."<< endl;
 hpbase+=200;
 maxhp+=200;
-energy+=99;
+energy+=3;
 evade+=40;
-atkbase+=200;
+atkbase+=40;
 defbase+=5;
 cout<<"Here are your base stats."<<endl<<"HP : "<<hpbase<<" ATK : "<<atkbase<<" DEF : "<<defbase<<" EVD: "<<evade<<" EN: "<<energy<<endl;
 cout<<"Select prefered equipments."<<endl;
