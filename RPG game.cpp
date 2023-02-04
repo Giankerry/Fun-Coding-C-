@@ -79,6 +79,7 @@ string story[] = {
  "Damian ruled everyone with fear.",
  "Everyone who disobeyed his orders died,he ruled with terror.",
  "This is where your story begins..." + name +  "..."};
+HANDLE color= GetStdHandle(STD_OUTPUT_HANDLE);
 
 void mission(int hpbase,int atkbase ,int defbase){
 	
@@ -96,7 +97,7 @@ string ending[]={
 "** "+name+" and Amara went back to Venicia as a new war is about to commence.",
 "A war between Venicia and the other kingdoms is about to begin..."};
 
-HANDLE color= GetStdHandle(STD_OUTPUT_HANDLE);
+
 SetConsoleTextAttribute(color,2);
 int op1,op2;
 int potion=200;
@@ -134,7 +135,7 @@ cout<<" "<<endl;}
 break;	
 }
 system("cls");
-system("Color 06");
+SetConsoleTextAttribute(color,6)
 cout << "Please modify your character."<<endl;
 cout << "Classes Available: [ <1> Warrior , <2> Assassin , <3> Archer , <4> Shield-Bearer ]" << endl<<endl;
 cin>>role;
