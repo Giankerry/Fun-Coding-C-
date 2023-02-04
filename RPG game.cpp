@@ -15,7 +15,7 @@ char repeat;
 string skip;
 string ae ="Please Select an Armor: ";
 string we= "Please Select a Weapon: ";
-int hp,exp,atk,def,weap,king,d,price,silver;
+int hp,atk,def,weap,king,d,price,silver;
 int luck,chance,enchance,fight,hplost,enatk;
 int hpbase,atkbase,defbase,energy,dodge;
 int enhp,endef,enluck,pchance,i,maxhp,times,evade;
